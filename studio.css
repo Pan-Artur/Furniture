@@ -25,7 +25,7 @@ body {
 .header {
     width: 1440px;
     height: 1084px;
-    background-image: url(../img/header-background.png);
+    background-image: url(./img/header-background.png);
 }
 
 .logotype {
