@@ -7,132 +7,400 @@
     <title>Furniture</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./studio.css">
 </head>
 <body class="body">
+    <div class="container header-about-us">
     <!-- Header  -->
     <header class="header">
         <div class="container">
             <nav class="header-navigation">
-                <a href="./index.html" class="logotype">Panto</a>
-                <ul class="header-list">
-                    <li class="header-item">Furniture</li>
-                    <li class="header-item">Shop</li>
-                    <li class="header-item">About Us</li>
-                    <li class="header-item">Contact</li>
-                </ul>
+                <div class="container header-box">
+                    <a href="./index.html" class="logotype header-logo">Panto</a>
+                    <ul class="header-list">
+                        <li class="header-item">
+                            <a class="header-link" href="#">
+                                Furniture
+                            </a>
+                        </li>
+                        <li class="header-item">
+                            <a class="header-link" href="#">
+                                Shop
+                            </a>
+                        </li>
+                        <li class="header-item">
+                            <a class="header-link" href="#">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="header-item">
+                            <a class="header-link" href="#">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#" class="bag">
+                        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.007 2.83325C20.8036 2.83325 23.9249 5.81662 24.0833 9.59688H24.0463C24.0508 9.70676 24.0296 9.81618 23.9846 9.91659H24.2058C25.9299 9.91659 27.7353 11.1116 28.4592 13.9963L28.5378 14.3367L29.6271 23.1125C30.411 28.7097 27.3487 31.0636 23.1713 31.1633L22.8912 31.1666H11.1471C6.90168 31.1666 3.63027 29.6196 4.34956 23.4933L4.39861 23.1125L5.50041 14.3367C6.0437 11.2301 7.86761 10.0048 9.625 9.92121L9.81993 9.91659H9.93067C9.912 9.81083 9.912 9.70263 9.93067 9.59688C10.0891 5.81662 13.2104 2.83325 17.007 2.83325ZM12.8874 14.6331C12.1959 14.6331 11.6354 15.21 11.6354 15.9217C11.6354 16.6334 12.1959 17.2104 12.8874 17.2104C13.5789 17.2104 14.1394 16.6334 14.1394 15.9217L14.1297 15.7601C14.0524 15.1247 13.5257 14.6331 12.8874 14.6331ZM21.0882 14.6331C20.3968 14.6331 19.8362 15.21 19.8362 15.9217C19.8362 16.6334 20.3968 17.2104 21.0882 17.2104C21.7797 17.2104 22.3403 16.6334 22.3403 15.9217C22.3403 15.21 21.7797 14.6331 21.0882 14.6331ZM16.9515 4.6783C14.2257 4.6783 12.0159 6.88042 12.0159 9.59688C12.0346 9.70263 12.0346 9.81083 12.0159 9.91659H21.9487C21.9093 9.81451 21.8884 9.70625 21.887 9.59688C21.887 6.88042 19.6773 4.6783 16.9515 4.6783Z" fill="white"/>
+                        </svg>
+                        <span class="zero">
+                            <svg width="20" height="26" viewBox="0 0 20 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="10" cy="12.799" rx="10" ry="12.622" fill="#E58411"/>
+                            <path d="M9.86971 19.3758C12.2795 19.3758 13.7347 17.0606 13.7394 13.0741C13.744 9.11703 12.2701 6.84912 9.86971 6.84912C7.46462 6.84912 6.00472 9.11113 6.00004 13.0741C5.99069 17.0488 7.45526 19.3699 9.86971 19.3758ZM9.86971 17.2555C8.7701 17.2555 8.05887 15.8617 8.06355 13.0741C8.06823 10.3278 8.77478 8.94576 9.86971 8.94576C10.9599 8.94576 11.6712 10.3278 11.6712 13.0741C11.6759 15.8617 10.9646 17.2555 9.86971 17.2555Z" fill="white"/>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <h1 class="header-title">Make Your Interior More Minimalistic & Modern</h1>
+                <p class="header-text">Turn your room with panto into a lot more minimalist and modern with ease and speed</p>
+                <input class="header-input" type="search" placeholder="Search furniture">
+                <a class="poshyk" href="#">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.75 15.75L12.3855 12.3795M14.25 7.875C14.25 9.56576 13.5784 11.1873 12.3828 12.3828C11.1873 13.5784 9.56576 14.25 7.875 14.25C6.18424 14.25 4.56274 13.5784 3.36719 12.3828C2.17165 11.1873 1.5 9.56576 1.5 7.875C1.5 6.18424 2.17165 4.56274 3.36719 3.36719C4.56274 2.17165 6.18424 1.5 7.875 1.5C9.56576 1.5 11.1873 2.17165 12.3828 3.36719C13.5784 4.56274 14.25 6.18424 14.25 7.875Z" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </a>
+                <img class="header-clicker" src="./img/color-clicker.png" alt="">
+                <a class="header-orange" href="#">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d_1_48)">
+                    <circle cx="18" cy="14" r="12" transform="rotate(180 18 14)" fill="#E58411"/>
+                    <circle cx="18" cy="14" r="11" transform="rotate(180 18 14)" stroke="white" stroke-width="2"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_d_1_48" x="0" y="0" width="36" height="36" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="3"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_48"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_48" result="shape"/> 
+                    </svg>
+                </a>
+                <a class="header-blue" href="#">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d_1_52)">
+                    <circle cx="18" cy="14" r="12" transform="rotate(180 18 14)" fill="#00D6C9"/>
+                    <circle cx="18" cy="14" r="11" transform="rotate(180 18 14)" stroke="white" stroke-width="2"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_d_1_52" x="0" y="0" width="36" height="36" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="3"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_52"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_52" result="shape"/> 
+                    </svg>
+                </a> 
+                <a class="header-grey" href="#">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d_1_53)">
+                    <circle cx="18" cy="14" r="12" transform="rotate(180 18 14)" fill="#7C7C7C"/>
+                    <circle cx="18" cy="14" r="11" transform="rotate(180 18 14)" stroke="white" stroke-width="2"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_d_1_53" x="0" y="0" width="36" height="36" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="3"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_53"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_53" result="shape"/>
+                    </svg> 
+                </a>
+                <a class="pointer1" href="#">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_b_1_22)">
+                    <circle cx="16" cy="16" r="16" fill="white" fill-opacity="0.2"/>
+                    <circle cx="16" cy="16" r="15.5692" stroke="white" stroke-opacity="0.6" stroke-width="0.861538"/>
+                    </g>
+                    <circle cx="15.9997" cy="16" r="5.14286" transform="rotate(180 15.9997 16)" fill="white"/>
+                    <defs>
+                    <filter id="filter0_b_1_22" x="-8" y="-8" width="48" height="48" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feGaussianBlur in="BackgroundImageFix" stdDeviation="4"/>
+                    <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_22"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_22" result="shape"/>
+                    </filter>
+                    </defs>
+                    </svg> 
+                </a>
+                <a class="pointer2" href="#">
+                    <svg width="56" height="57" viewBox="0 0 56 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_b_1_39)">
+                    <circle cx="28" cy="28.6035" r="28" fill="white" fill-opacity="0.2"/>
+                    <circle cx="28" cy="28.6035" r="27.5692" stroke="white" stroke-opacity="0.6" stroke-width="0.861538"/>
+                    </g>
+                    <circle cx="28" cy="28.6035" r="9" transform="rotate(180 28 28.6035)" fill="white"/>
+                    <defs>
+                    <filter id="filter0_b_1_39" x="-8" y="-7.39648" width="72" height="72" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feGaussianBlur in="BackgroundImageFix" stdDeviation="4"/>
+                    <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_39"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_39" result="shape"/>
+                    </filter>
+                    </defs>
+                    </svg> 
+                </a>
+                <a class="pointer3" href="#">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_b_1_25)">
+                    <circle cx="16" cy="16" r="16" fill="white" fill-opacity="0.2"/>
+                    <circle cx="16" cy="16" r="15.5692" stroke="white" stroke-opacity="0.6" stroke-width="0.861538"/>
+                    </g>
+                    <circle cx="15.9997" cy="16" r="5.14286" transform="rotate(180 15.9997 16)" fill="white"/>
+                    <defs>
+                    <filter id="filter0_b_1_25" x="-8" y="-8" width="48" height="48" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feGaussianBlur in="BackgroundImageFix" stdDeviation="4"/>
+                    <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_25"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_25" result="shape"/>
+                    </filter>
+                    </defs>
+                    </svg> 
+                </a>
+                <a class="pointer4" href="#">
+                    <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_b_1_28)">
+                    <circle cx="18.5" cy="18.5" r="18.5" fill="white" fill-opacity="0.2"/>
+                    <circle cx="18.5" cy="18.5" r="18.0692" stroke="white" stroke-opacity="0.6" stroke-width="0.861538"/>
+                    </g>
+                    <circle cx="18.5" cy="18.4996" r="5.94643" transform="rotate(180 18.5 18.4996)" fill="white"/>
+                    <defs>
+                    <filter id="filter0_b_1_28" x="-8" y="-8" width="53" height="53" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feGaussianBlur in="BackgroundImageFix" stdDeviation="4"/>
+                    <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_28"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_28" result="shape"/>
+                    </filter>
+                    </defs>
+                    </svg> 
+                </a>
             </nav>
         </div>
     </header>
-    <!-- Main  -->
-    <main class="main">
-        <!-- Topic  -->
-        <section class="topic">
-            <div class="container">
-                <h1 class="topic-title">Make Your Interior More Minimalistic & Modern</h1>
-                <p class="topic-text">Turn your room with panto into a lot more minimalist and modern with ease and speed</p>
-                <input class="topic-input" type="text">
-            </div>
-        </section>
         <!-- About us  -->
         <section class="about-us">
-            <div class="container">
+            <div class="container about-us-box">
                 <h2 class="about-us-title">Why Choosing Us</h2>
                 <ul class="about-us-list">
                     <li class="about-us-item">
                         <h3 class="about-us-subtitle">Luxury facilities</h3>
                         <p class="about-us-text">The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.</p>
-                        <a class="about-us-link" href="#">More Info</a>
-                        <img src="./img/link-pointer.png" alt="link-pointer">
+                        <a class="pointer-link" href="#"><span>More Info</span>
+                            <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.5 12.4002H42M42 12.4002C42 12.4002 37.5119 9.44867 36.6 7.00024M42 12.4002C42 12.4002 38.0324 15.1736 36.6 17.8002" stroke="#E58411" stroke-linecap="square"/>
+                            </svg> 
+                        </a>
                     </li>
                     <li class="about-us-item">
                         <h3 class="about-us-subtitle">Affordable Price</h3>
                         <p class="about-us-text">You can get a workspace of the highst quality at an affordable price and still enjoy the facilities that are oly here.</p>
-                        <a class="about-us-link" href="#">More Info</a>
-                        <img src="./img/link-pointer.png" alt="link-pointer">
+                        <a class="pointer-link" href="#"><span>More Info</span>
+                            <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.5 12.4002H42M42 12.4002C42 12.4002 37.5119 9.44867 36.6 7.00024M42 12.4002C42 12.4002 38.0324 15.1736 36.6 17.8002" stroke="#E58411" stroke-linecap="square"/>
+                            </svg> 
+                        </a>
                     </li>
                     <li class="about-us-item">
                         <h3 class="about-us-subtitle">Many Choices</h3>
                         <p class="about-us-text">We provide many unique work space choices so that you can choose the workspace to your liking.</p>
-                        <a class="about-us-link" href="#">More Info</a>
-                        <img src="./img/link-pointer.png" alt="link-pointer">
+                        <a class="pointer-link" href="#"><span>More Info</span>
+                            <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.5 12.4002H42M42 12.4002C42 12.4002 37.5119 9.44867 36.6 7.00024M42 12.4002C42 12.4002 38.0324 15.1736 36.6 17.8002" stroke="#E58411" stroke-linecap="square"/>
+                            </svg> 
+                        </a>
                     </li>
                 </ul>
             </div>
         </section>
+    </div>
         <!-- Products  -->
         <section class="products">
-            <div class="container">
+            <div class="container products-box">
                 <h2 class="products-title">Best Selling Product</h2>
                 <ul class="products-list">
                     <li class="products-item">
-                        <button class="products-button">
+                        <button class="products-button products-button1">
                             Chair
                         </button>
                     </li>
                     <li class="products-item">
-                        <button class="products-button">
+                        <button class="products-button products-button2">
                             Beds
                         </button>
                     </li>
                     <li class="products-item">
-                        <button class="products-button">
+                        <button class="products-button products-button3">
                             Sofa
                         </button>
                     </li>
                     <li class="products-item">
-                        <button class="products-button">
+                        <button class="products-button products-button4">
                             Lamp
                         </button>
                     </li>
                 </ul>
+                <div class="products-box2">
+                    <a class="pointer-left" href="#">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.6958 14.4355H5.48568M5.48568 14.4355C5.48568 14.4355 10.364 11.2272 11.3552 8.56592M5.48568 14.4355C5.48568 14.4355 9.79826 17.45 11.3552 20.305" stroke="#1E1E1E" stroke-width="2.17391" stroke-linecap="square"/>
+                        </svg> 
+                    </a>
+                    <a class="pointer-right" href="#">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.30417 14.4355H22.5143M22.5143 14.4355C22.5143 14.4355 17.636 11.2272 16.6447 8.56592M22.5143 14.4355C22.5143 14.4355 18.2017 17.45 16.6447 20.305" stroke="#1E1E1E" stroke-width="2.17391" stroke-linecap="square"/>
+                        </svg>
+                    </a>
+                </div>
                 <ul class="products-list2">
-                    <li class="products-item">
-                        <img src="./img/pointer-left.png" alt="pointer-left">
+                    <li class="products-card">
                         <img class="products-img" src="./img/armchair1.png" alt="armchair1">
                         <p class="products-text">Chair</p>
                         <h3 class="products-subtitle">Sakarias Armchair</h3>
-                        <p class="products-prize">&#36;392</p>
-                        <img class="products-plus" src="./img/plus.png" alt="plus">
+                        <svg class="products-star" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.2725 10.9091C14.0752 11.1003 13.9846 11.3767 14.0295 11.6479L14.7066 15.395C14.7637 15.7126 14.6297 16.034 14.3639 16.2176C14.1034 16.408 13.7569 16.4308 13.4728 16.2785L10.0996 14.5192C9.98233 14.4567 9.85209 14.4232 9.71881 14.4194H9.51242C9.44082 14.4301 9.37076 14.4529 9.30678 14.488L5.93285 16.2557C5.76605 16.3394 5.57717 16.3691 5.3921 16.3394C4.94123 16.2541 4.64039 15.8246 4.71427 15.3714L5.3921 11.6243C5.43704 11.3509 5.34641 11.0729 5.14915 10.8786L2.39897 8.21299C2.16897 7.98983 2.089 7.65472 2.1941 7.35236C2.29616 7.05076 2.55663 6.83065 2.87117 6.78115L6.65638 6.23202C6.94426 6.20232 7.19712 6.02715 7.32659 5.7682L8.99452 2.34854C9.03412 2.27238 9.08515 2.20231 9.14684 2.1429L9.21539 2.08959C9.25118 2.04998 9.29231 2.01723 9.33801 1.99058L9.42102 1.96011L9.5505 1.9068H9.87113C10.1575 1.9365 10.4096 2.10787 10.5414 2.36377L12.2314 5.7682C12.3532 6.01725 12.5901 6.19013 12.8635 6.23202L16.6487 6.78115C16.9686 6.82685 17.2359 7.04771 17.3418 7.35236C17.4415 7.65777 17.3555 7.99288 17.1209 8.21299L14.2725 10.9091Z" fill="#F6B76F"/>
+                            </svg>
+                            <svg class="products-star" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.2725 10.9091C14.0752 11.1003 13.9846 11.3767 14.0295 11.6479L14.7066 15.395C14.7637 15.7126 14.6297 16.034 14.3639 16.2176C14.1034 16.408 13.7569 16.4308 13.4728 16.2785L10.0996 14.5192C9.98233 14.4567 9.85209 14.4232 9.71881 14.4194H9.51242C9.44082 14.4301 9.37076 14.4529 9.30678 14.488L5.93285 16.2557C5.76605 16.3394 5.57717 16.3691 5.3921 16.3394C4.94123 16.2541 4.64039 15.8246 4.71427 15.3714L5.3921 11.6243C5.43704 11.3509 5.34641 11.0729 5.14915 10.8786L2.39897 8.21299C2.16897 7.98983 2.089 7.65472 2.1941 7.35236C2.29616 7.05076 2.55663 6.83065 2.87117 6.78115L6.65638 6.23202C6.94426 6.20232 7.19712 6.02715 7.32659 5.7682L8.99452 2.34854C9.03412 2.27238 9.08515 2.20231 9.14684 2.1429L9.21539 2.08959C9.25118 2.04998 9.29231 2.01723 9.33801 1.99058L9.42102 1.96011L9.5505 1.9068H9.87113C10.1575 1.9365 10.4096 2.10787 10.5414 2.36377L12.2314 5.7682C12.3532 6.01725 12.5901 6.19013 12.8635 6.23202L16.6487 6.78115C16.9686 6.82685 17.2359 7.04771 17.3418 7.35236C17.4415 7.65777 17.3555 7.99288 17.1209 8.21299L14.2725 10.9091Z" fill="#F6B76F"/>
+                            </svg>
+                            <svg class="products-star" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.2725 10.9091C14.0752 11.1003 13.9846 11.3767 14.0295 11.6479L14.7066 15.395C14.7637 15.7126 14.6297 16.034 14.3639 16.2176C14.1034 16.408 13.7569 16.4308 13.4728 16.2785L10.0996 14.5192C9.98233 14.4567 9.85209 14.4232 9.71881 14.4194H9.51242C9.44082 14.4301 9.37076 14.4529 9.30678 14.488L5.93285 16.2557C5.76605 16.3394 5.57717 16.3691 5.3921 16.3394C4.94123 16.2541 4.64039 15.8246 4.71427 15.3714L5.3921 11.6243C5.43704 11.3509 5.34641 11.0729 5.14915 10.8786L2.39897 8.21299C2.16897 7.98983 2.089 7.65472 2.1941 7.35236C2.29616 7.05076 2.55663 6.83065 2.87117 6.78115L6.65638 6.23202C6.94426 6.20232 7.19712 6.02715 7.32659 5.7682L8.99452 2.34854C9.03412 2.27238 9.08515 2.20231 9.14684 2.1429L9.21539 2.08959C9.25118 2.04998 9.29231 2.01723 9.33801 1.99058L9.42102 1.96011L9.5505 1.9068H9.87113C10.1575 1.9365 10.4096 2.10787 10.5414 2.36377L12.2314 5.7682C12.3532 6.01725 12.5901 6.19013 12.8635 6.23202L16.6487 6.78115C16.9686 6.82685 17.2359 7.04771 17.3418 7.35236C17.4415 7.65777 17.3555 7.99288 17.1209 8.21299L14.2725 10.9091Z" fill="#F6B76F"/>
+                            </svg>
+                            <svg class="products-star" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.2725 10.9091C14.0752 11.1003 13.9846 11.3767 14.0295 11.6479L14.7066 15.395C14.7637 15.7126 14.6297 16.034 14.3639 16.2176C14.1034 16.408 13.7569 16.4308 13.4728 16.2785L10.0996 14.5192C9.98233 14.4567 9.85209 14.4232 9.71881 14.4194H9.51242C9.44082 14.4301 9.37076 14.4529 9.30678 14.488L5.93285 16.2557C5.76605 16.3394 5.57717 16.3691 5.3921 16.3394C4.94123 16.2541 4.64039 15.8246 4.71427 15.3714L5.3921 11.6243C5.43704 11.3509 5.34641 11.0729 5.14915 10.8786L2.39897 8.21299C2.16897 7.98983 2.089 7.65472 2.1941 7.35236C2.29616 7.05076 2.55663 6.83065 2.87117 6.78115L6.65638 6.23202C6.94426 6.20232 7.19712 6.02715 7.32659 5.7682L8.99452 2.34854C9.03412 2.27238 9.08515 2.20231 9.14684 2.1429L9.21539 2.08959C9.25118 2.04998 9.29231 2.01723 9.33801 1.99058L9.42102 1.96011L9.5505 1.9068H9.87113C10.1575 1.9365 10.4096 2.10787 10.5414 2.36377L12.2314 5.7682C12.3532 6.01725 12.5901 6.19013 12.8635 6.23202L16.6487 6.78115C16.9686 6.82685 17.2359 7.04771 17.3418 7.35236C17.4415 7.65777 17.3555 7.99288 17.1209 8.21299L14.2725 10.9091Z" fill="#F6B76F"/>
+                            </svg>
+                            <svg class="products-star" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.2725 10.9091C14.0752 11.1003 13.9846 11.3767 14.0295 11.6479L14.7066 15.395C14.7637 15.7126 14.6297 16.034 14.3639 16.2176C14.1034 16.408 13.7569 16.4308 13.4728 16.2785L10.0996 14.5192C9.98233 14.4567 9.85209 14.4232 9.71881 14.4194H9.51242C9.44082 14.4301 9.37076 14.4529 9.30678 14.488L5.93285 16.2557C5.76605 16.3394 5.57717 16.3691 5.3921 16.3394C4.94123 16.2541 4.64039 15.8246 4.71427 15.3714L5.3921 11.6243C5.43704 11.3509 5.34641 11.0729 5.14915 10.8786L2.39897 8.21299C2.16897 7.98983 2.089 7.65472 2.1941 7.35236C2.29616 7.05076 2.55663 6.83065 2.87117 6.78115L6.65638 6.23202C6.94426 6.20232 7.19712 6.02715 7.32659 5.7682L8.99452 2.34854C9.03412 2.27238 9.08515 2.20231 9.14684 2.1429L9.21539 2.08959C9.25118 2.04998 9.29231 2.01723 9.33801 1.99058L9.42102 1.96011L9.5505 1.9068H9.87113C10.1575 1.9365 10.4096 2.10787 10.5414 2.36377L12.2314 5.7682C12.3532 6.01725 12.5901 6.19013 12.8635 6.23202L16.6487 6.78115C16.9686 6.82685 17.2359 7.04771 17.3418 7.35236C17.4415 7.65777 17.3555 7.99288 17.1209 8.21299L14.2725 10.9091Z" fill="#F6B76F"/>
+                            </svg>
+                        <div class="products-box2">
+                            <p class="products-dollar">$</p>
+                            <p class="products-prize">392</p>
+                            <a class="products-plus" href="#">
+                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22.3129 12.2102C22.3129 11.4411 21.6894 10.8176 20.9203 10.8176H13.957V3.85427C13.957 3.08512 13.3335 2.46161 12.5643 2.46161C11.7952 2.46161 11.1717 3.08512 11.1717 3.85427V10.8176H4.20838C3.43923 10.8176 2.81572 11.4411 2.81572 12.2102C2.81572 12.9794 3.43923 13.6029 4.20838 13.6029H11.1717V20.5662C11.1717 21.3353 11.7952 21.9588 12.5643 21.9588C13.3335 21.9588 13.957 21.3353 13.957 20.5662V13.6029H20.9203C21.6894 13.6029 22.3129 12.9794 22.3129 12.2102Z" fill="white"/>
+                                </svg> 
+                            </a> 
+                        </div>
                     </li>
-                    <li class="products-item">
+                    <li class="products-card">
                         <img class="products-img" src="./img/armchair2.png" alt="armchair2">
                         <p class="products-text">Chair</p>
                         <h3 class="products-subtitle">Baltsar Chair</h3>
-                        <p class="products-prize">&#36;299</p>
-                        <img class="products-plus" src="./img/plus.png" alt="plus">
+                        <svg class="products-star" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.2725 10.9091C14.0752 11.1003 13.9846 11.3767 14.0295 11.6479L14.7066 15.395C14.7637 15.7126 14.6297 16.034 14.3639 16.2176C14.1034 16.408 13.7569 16.4308 13.4728 16.2785L10.0996 14.5192C9.98233 14.4567 9.85209 14.4232 9.71881 14.4194H9.51242C9.44082 14.4301 9.37076 14.4529 9.30678 14.488L5.93285 16.2557C5.76605 16.3394 5.57717 16.3691 5.3921 16.3394C4.94123 16.2541 4.64039 15.8246 4.71427 15.3714L5.3921 11.6243C5.43704 11.3509 5.34641 11.0729 5.14915 10.8786L2.39897 8.21299C2.16897 7.98983 2.089 7.65472 2.1941 7.35236C2.29616 7.05076 2.55663 6.83065 2.87117 6.78115L6.65638 6.23202C6.94426 6.20232 7.19712 6.02715 7.32659 5.7682L8.99452 2.34854C9.03412 2.27238 9.08515 2.20231 9.14684 2.1429L9.21539 2.08959C9.25118 2.04998 9.29231 2.01723 9.33801 1.99058L9.42102 1.96011L9.5505 1.9068H9.87113C10.1575 1.9365 10.4096 2.10787 10.5414 2.36377L12.2314 5.7682C12.3532 6.01725 12.5901 6.19013 12.8635 6.23202L16.6487 6.78115C16.9686 6.82685 17.2359 7.04771 17.3418 7.35236C17.4415 7.65777 17.3555 7.99288 17.1209 8.21299L14.2725 10.9091Z" fill="#F6B76F"/>
+                            </svg>
+                            <svg class="products-star" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.2725 10.9091C14.0752 11.1003 13.9846 11.3767 14.0295 11.6479L14.7066 15.395C14.7637 15.7126 14.6297 16.034 14.3639 16.2176C14.1034 16.408 13.7569 16.4308 13.4728 16.2785L10.0996 14.5192C9.98233 14.4567 9.85209 14.4232 9.71881 14.4194H9.51242C9.44082 14.4301 9.37076 14.4529 9.30678 14.488L5.93285 16.2557C5.76605 16.3394 5.57717 16.3691 5.3921 16.3394C4.94123 16.2541 4.64039 15.8246 4.71427 15.3714L5.3921 11.6243C5.43704 11.3509 5.34641 11.0729 5.14915 10.8786L2.39897 8.21299C2.16897 7.98983 2.089 7.65472 2.1941 7.35236C2.29616 7.05076 2.55663 6.83065 2.87117 6.78115L6.65638 6.23202C6.94426 6.20232 7.19712 6.02715 7.32659 5.7682L8.99452 2.34854C9.03412 2.27238 9.08515 2.20231 9.14684 2.1429L9.21539 2.08959C9.25118 2.04998 9.29231 2.01723 9.33801 1.99058L9.42102 1.96011L9.5505 1.9068H9.87113C10.1575 1.9365 10.4096 2.10787 10.5414 2.36377L12.2314 5.7682C12.3532 6.01725 12.5901 6.19013 12.8635 6.23202L16.6487 6.78115C16.9686 6.82685 17.2359 7.04771 17.3418 7.35236C17.4415 7.65777 17.3555 7.99288 17.1209 8.21299L14.2725 10.9091Z" fill="#F6B76F"/>
+                            </svg>
+                            <svg class="products-star" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.2725 10.9091C14.0752 11.1003 13.9846 11.3767 14.0295 11.6479L14.7066 15.395C14.7637 15.7126 14.6297 16.034 14.3639 16.2176C14.1034 16.408 13.7569 16.4308 13.4728 16.2785L10.0996 14.5192C9.98233 14.4567 9.85209 14.4232 9.71881 14.4194H9.51242C9.44082 14.4301 9.37076 14.4529 9.30678 14.488L5.93285 16.2557C5.76605 16.3394 5.57717 16.3691 5.3921 16.3394C4.94123 16.2541 4.64039 15.8246 4.71427 15.3714L5.3921 11.6243C5.43704 11.3509 5.34641 11.0729 5.14915 10.8786L2.39897 8.21299C2.16897 7.98983 2.089 7.65472 2.1941 7.35236C2.29616 7.05076 2.55663 6.83065 2.87117 6.78115L6.65638 6.23202C6.94426 6.20232 7.19712 6.02715 7.32659 5.7682L8.99452 2.34854C9.03412 2.27238 9.08515 2.20231 9.14684 2.1429L9.21539 2.08959C9.25118 2.04998 9.29231 2.01723 9.33801 1.99058L9.42102 1.96011L9.5505 1.9068H9.87113C10.1575 1.9365 10.4096 2.10787 10.5414 2.36377L12.2314 5.7682C12.3532 6.01725 12.5901 6.19013 12.8635 6.23202L16.6487 6.78115C16.9686 6.82685 17.2359 7.04771 17.3418 7.35236C17.4415 7.65777 17.3555 7.99288 17.1209 8.21299L14.2725 10.9091Z" fill="#F6B76F"/>
+                            </svg>
+                            <svg class="products-star" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.2725 10.9091C14.0752 11.1003 13.9846 11.3767 14.0295 11.6479L14.7066 15.395C14.7637 15.7126 14.6297 16.034 14.3639 16.2176C14.1034 16.408 13.7569 16.4308 13.4728 16.2785L10.0996 14.5192C9.98233 14.4567 9.85209 14.4232 9.71881 14.4194H9.51242C9.44082 14.4301 9.37076 14.4529 9.30678 14.488L5.93285 16.2557C5.76605 16.3394 5.57717 16.3691 5.3921 16.3394C4.94123 16.2541 4.64039 15.8246 4.71427 15.3714L5.3921 11.6243C5.43704 11.3509 5.34641 11.0729 5.14915 10.8786L2.39897 8.21299C2.16897 7.98983 2.089 7.65472 2.1941 7.35236C2.29616 7.05076 2.55663 6.83065 2.87117 6.78115L6.65638 6.23202C6.94426 6.20232 7.19712 6.02715 7.32659 5.7682L8.99452 2.34854C9.03412 2.27238 9.08515 2.20231 9.14684 2.1429L9.21539 2.08959C9.25118 2.04998 9.29231 2.01723 9.33801 1.99058L9.42102 1.96011L9.5505 1.9068H9.87113C10.1575 1.9365 10.4096 2.10787 10.5414 2.36377L12.2314 5.7682C12.3532 6.01725 12.5901 6.19013 12.8635 6.23202L16.6487 6.78115C16.9686 6.82685 17.2359 7.04771 17.3418 7.35236C17.4415 7.65777 17.3555 7.99288 17.1209 8.21299L14.2725 10.9091Z" fill="#F6B76F"/>
+                            </svg>
+                            <svg class="products-star" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.2725 10.9091C14.0752 11.1003 13.9846 11.3767 14.0295 11.6479L14.7066 15.395C14.7637 15.7126 14.6297 16.034 14.3639 16.2176C14.1034 16.408 13.7569 16.4308 13.4728 16.2785L10.0996 14.5192C9.98233 14.4567 9.85209 14.4232 9.71881 14.4194H9.51242C9.44082 14.4301 9.37076 14.4529 9.30678 14.488L5.93285 16.2557C5.76605 16.3394 5.57717 16.3691 5.3921 16.3394C4.94123 16.2541 4.64039 15.8246 4.71427 15.3714L5.3921 11.6243C5.43704 11.3509 5.34641 11.0729 5.14915 10.8786L2.39897 8.21299C2.16897 7.98983 2.089 7.65472 2.1941 7.35236C2.29616 7.05076 2.55663 6.83065 2.87117 6.78115L6.65638 6.23202C6.94426 6.20232 7.19712 6.02715 7.32659 5.7682L8.99452 2.34854C9.03412 2.27238 9.08515 2.20231 9.14684 2.1429L9.21539 2.08959C9.25118 2.04998 9.29231 2.01723 9.33801 1.99058L9.42102 1.96011L9.5505 1.9068H9.87113C10.1575 1.9365 10.4096 2.10787 10.5414 2.36377L12.2314 5.7682C12.3532 6.01725 12.5901 6.19013 12.8635 6.23202L16.6487 6.78115C16.9686 6.82685 17.2359 7.04771 17.3418 7.35236C17.4415 7.65777 17.3555 7.99288 17.1209 8.21299L14.2725 10.9091Z" fill="#F6B76F"/>
+                            </svg>
+                        <div class="products-box2">
+                            <p class="products-dollar">$</p>
+                            <p class="products-prize">299</p>
+                            <a class="products-plus" href="#">
+                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22.3129 12.2102C22.3129 11.4411 21.6894 10.8176 20.9203 10.8176H13.957V3.85427C13.957 3.08512 13.3335 2.46161 12.5643 2.46161C11.7952 2.46161 11.1717 3.08512 11.1717 3.85427V10.8176H4.20838C3.43923 10.8176 2.81572 11.4411 2.81572 12.2102C2.81572 12.9794 3.43923 13.6029 4.20838 13.6029H11.1717V20.5662C11.1717 21.3353 11.7952 21.9588 12.5643 21.9588C13.3335 21.9588 13.957 21.3353 13.957 20.5662V13.6029H20.9203C21.6894 13.6029 22.3129 12.9794 22.3129 12.2102Z" fill="white"/>
+                                </svg> 
+                            </a> 
+                        </div>
                     </li>
-                    <li class="products-item">
+                    <li class="products-card">
                         <img class="products-img" src="./img/armchair3.png" alt="armchair3">
                         <p class="products-text">Chair</p>
                         <h3 class="products-subtitle">Anjay Chair</h3>
-                        <p class="products-prize">&#36;519</p>
-                        <img class="products-plus" src="./img/plus.png" alt="plus">
+                        <svg class="products-star" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.2725 10.9091C14.0752 11.1003 13.9846 11.3767 14.0295 11.6479L14.7066 15.395C14.7637 15.7126 14.6297 16.034 14.3639 16.2176C14.1034 16.408 13.7569 16.4308 13.4728 16.2785L10.0996 14.5192C9.98233 14.4567 9.85209 14.4232 9.71881 14.4194H9.51242C9.44082 14.4301 9.37076 14.4529 9.30678 14.488L5.93285 16.2557C5.76605 16.3394 5.57717 16.3691 5.3921 16.3394C4.94123 16.2541 4.64039 15.8246 4.71427 15.3714L5.3921 11.6243C5.43704 11.3509 5.34641 11.0729 5.14915 10.8786L2.39897 8.21299C2.16897 7.98983 2.089 7.65472 2.1941 7.35236C2.29616 7.05076 2.55663 6.83065 2.87117 6.78115L6.65638 6.23202C6.94426 6.20232 7.19712 6.02715 7.32659 5.7682L8.99452 2.34854C9.03412 2.27238 9.08515 2.20231 9.14684 2.1429L9.21539 2.08959C9.25118 2.04998 9.29231 2.01723 9.33801 1.99058L9.42102 1.96011L9.5505 1.9068H9.87113C10.1575 1.9365 10.4096 2.10787 10.5414 2.36377L12.2314 5.7682C12.3532 6.01725 12.5901 6.19013 12.8635 6.23202L16.6487 6.78115C16.9686 6.82685 17.2359 7.04771 17.3418 7.35236C17.4415 7.65777 17.3555 7.99288 17.1209 8.21299L14.2725 10.9091Z" fill="#F6B76F"/>
+                        </svg>
+                        <svg class="products-star" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.2725 10.9091C14.0752 11.1003 13.9846 11.3767 14.0295 11.6479L14.7066 15.395C14.7637 15.7126 14.6297 16.034 14.3639 16.2176C14.1034 16.408 13.7569 16.4308 13.4728 16.2785L10.0996 14.5192C9.98233 14.4567 9.85209 14.4232 9.71881 14.4194H9.51242C9.44082 14.4301 9.37076 14.4529 9.30678 14.488L5.93285 16.2557C5.76605 16.3394 5.57717 16.3691 5.3921 16.3394C4.94123 16.2541 4.64039 15.8246 4.71427 15.3714L5.3921 11.6243C5.43704 11.3509 5.34641 11.0729 5.14915 10.8786L2.39897 8.21299C2.16897 7.98983 2.089 7.65472 2.1941 7.35236C2.29616 7.05076 2.55663 6.83065 2.87117 6.78115L6.65638 6.23202C6.94426 6.20232 7.19712 6.02715 7.32659 5.7682L8.99452 2.34854C9.03412 2.27238 9.08515 2.20231 9.14684 2.1429L9.21539 2.08959C9.25118 2.04998 9.29231 2.01723 9.33801 1.99058L9.42102 1.96011L9.5505 1.9068H9.87113C10.1575 1.9365 10.4096 2.10787 10.5414 2.36377L12.2314 5.7682C12.3532 6.01725 12.5901 6.19013 12.8635 6.23202L16.6487 6.78115C16.9686 6.82685 17.2359 7.04771 17.3418 7.35236C17.4415 7.65777 17.3555 7.99288 17.1209 8.21299L14.2725 10.9091Z" fill="#F6B76F"/>
+                        </svg>
+                        <svg class="products-star" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.2725 10.9091C14.0752 11.1003 13.9846 11.3767 14.0295 11.6479L14.7066 15.395C14.7637 15.7126 14.6297 16.034 14.3639 16.2176C14.1034 16.408 13.7569 16.4308 13.4728 16.2785L10.0996 14.5192C9.98233 14.4567 9.85209 14.4232 9.71881 14.4194H9.51242C9.44082 14.4301 9.37076 14.4529 9.30678 14.488L5.93285 16.2557C5.76605 16.3394 5.57717 16.3691 5.3921 16.3394C4.94123 16.2541 4.64039 15.8246 4.71427 15.3714L5.3921 11.6243C5.43704 11.3509 5.34641 11.0729 5.14915 10.8786L2.39897 8.21299C2.16897 7.98983 2.089 7.65472 2.1941 7.35236C2.29616 7.05076 2.55663 6.83065 2.87117 6.78115L6.65638 6.23202C6.94426 6.20232 7.19712 6.02715 7.32659 5.7682L8.99452 2.34854C9.03412 2.27238 9.08515 2.20231 9.14684 2.1429L9.21539 2.08959C9.25118 2.04998 9.29231 2.01723 9.33801 1.99058L9.42102 1.96011L9.5505 1.9068H9.87113C10.1575 1.9365 10.4096 2.10787 10.5414 2.36377L12.2314 5.7682C12.3532 6.01725 12.5901 6.19013 12.8635 6.23202L16.6487 6.78115C16.9686 6.82685 17.2359 7.04771 17.3418 7.35236C17.4415 7.65777 17.3555 7.99288 17.1209 8.21299L14.2725 10.9091Z" fill="#F6B76F"/>
+                        </svg>
+                        <svg class="products-star" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.2725 10.9091C14.0752 11.1003 13.9846 11.3767 14.0295 11.6479L14.7066 15.395C14.7637 15.7126 14.6297 16.034 14.3639 16.2176C14.1034 16.408 13.7569 16.4308 13.4728 16.2785L10.0996 14.5192C9.98233 14.4567 9.85209 14.4232 9.71881 14.4194H9.51242C9.44082 14.4301 9.37076 14.4529 9.30678 14.488L5.93285 16.2557C5.76605 16.3394 5.57717 16.3691 5.3921 16.3394C4.94123 16.2541 4.64039 15.8246 4.71427 15.3714L5.3921 11.6243C5.43704 11.3509 5.34641 11.0729 5.14915 10.8786L2.39897 8.21299C2.16897 7.98983 2.089 7.65472 2.1941 7.35236C2.29616 7.05076 2.55663 6.83065 2.87117 6.78115L6.65638 6.23202C6.94426 6.20232 7.19712 6.02715 7.32659 5.7682L8.99452 2.34854C9.03412 2.27238 9.08515 2.20231 9.14684 2.1429L9.21539 2.08959C9.25118 2.04998 9.29231 2.01723 9.33801 1.99058L9.42102 1.96011L9.5505 1.9068H9.87113C10.1575 1.9365 10.4096 2.10787 10.5414 2.36377L12.2314 5.7682C12.3532 6.01725 12.5901 6.19013 12.8635 6.23202L16.6487 6.78115C16.9686 6.82685 17.2359 7.04771 17.3418 7.35236C17.4415 7.65777 17.3555 7.99288 17.1209 8.21299L14.2725 10.9091Z" fill="#F6B76F"/>
+                        </svg>
+                        <svg class="products-star" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.2725 10.9091C14.0752 11.1003 13.9846 11.3767 14.0295 11.6479L14.7066 15.395C14.7637 15.7126 14.6297 16.034 14.3639 16.2176C14.1034 16.408 13.7569 16.4308 13.4728 16.2785L10.0996 14.5192C9.98233 14.4567 9.85209 14.4232 9.71881 14.4194H9.51242C9.44082 14.4301 9.37076 14.4529 9.30678 14.488L5.93285 16.2557C5.76605 16.3394 5.57717 16.3691 5.3921 16.3394C4.94123 16.2541 4.64039 15.8246 4.71427 15.3714L5.3921 11.6243C5.43704 11.3509 5.34641 11.0729 5.14915 10.8786L2.39897 8.21299C2.16897 7.98983 2.089 7.65472 2.1941 7.35236C2.29616 7.05076 2.55663 6.83065 2.87117 6.78115L6.65638 6.23202C6.94426 6.20232 7.19712 6.02715 7.32659 5.7682L8.99452 2.34854C9.03412 2.27238 9.08515 2.20231 9.14684 2.1429L9.21539 2.08959C9.25118 2.04998 9.29231 2.01723 9.33801 1.99058L9.42102 1.96011L9.5505 1.9068H9.87113C10.1575 1.9365 10.4096 2.10787 10.5414 2.36377L12.2314 5.7682C12.3532 6.01725 12.5901 6.19013 12.8635 6.23202L16.6487 6.78115C16.9686 6.82685 17.2359 7.04771 17.3418 7.35236C17.4415 7.65777 17.3555 7.99288 17.1209 8.21299L14.2725 10.9091Z" fill="#F6B76F"/>
+                        </svg>
+                        <div class="products-box2">
+                            <p class="products-dollar">$</p>
+                            <p class="products-prize">519</p>
+                            <a class="products-plus" href="#">
+                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22.3129 12.2102C22.3129 11.4411 21.6894 10.8176 20.9203 10.8176H13.957V3.85427C13.957 3.08512 13.3335 2.46161 12.5643 2.46161C11.7952 2.46161 11.1717 3.08512 11.1717 3.85427V10.8176H4.20838C3.43923 10.8176 2.81572 11.4411 2.81572 12.2102C2.81572 12.9794 3.43923 13.6029 4.20838 13.6029H11.1717V20.5662C11.1717 21.3353 11.7952 21.9588 12.5643 21.9588C13.3335 21.9588 13.957 21.3353 13.957 20.5662V13.6029H20.9203C21.6894 13.6029 22.3129 12.9794 22.3129 12.2102Z" fill="white"/>
+                                </svg> 
+                            </a> 
+                        </div> 
                     </li>
-                    <li class="products-item">
+                    <li class="products-card">
                         <img class="products-img" src="./img/armchair4.png" alt="armchair4">
                         <p class="products-text">Chair</p>
                         <h3 class="products-subtitle">Nyantuy Chair</h3>
-                        <p class="products-prize">&#36;921</p>
-                        <img class="products-plus" src="./img/plus.png" alt="plus">
-                        <img src="./img/pointer-right.png" alt="pointer-right">
+                        <svg class="products-star" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.2725 10.9091C14.0752 11.1003 13.9846 11.3767 14.0295 11.6479L14.7066 15.395C14.7637 15.7126 14.6297 16.034 14.3639 16.2176C14.1034 16.408 13.7569 16.4308 13.4728 16.2785L10.0996 14.5192C9.98233 14.4567 9.85209 14.4232 9.71881 14.4194H9.51242C9.44082 14.4301 9.37076 14.4529 9.30678 14.488L5.93285 16.2557C5.76605 16.3394 5.57717 16.3691 5.3921 16.3394C4.94123 16.2541 4.64039 15.8246 4.71427 15.3714L5.3921 11.6243C5.43704 11.3509 5.34641 11.0729 5.14915 10.8786L2.39897 8.21299C2.16897 7.98983 2.089 7.65472 2.1941 7.35236C2.29616 7.05076 2.55663 6.83065 2.87117 6.78115L6.65638 6.23202C6.94426 6.20232 7.19712 6.02715 7.32659 5.7682L8.99452 2.34854C9.03412 2.27238 9.08515 2.20231 9.14684 2.1429L9.21539 2.08959C9.25118 2.04998 9.29231 2.01723 9.33801 1.99058L9.42102 1.96011L9.5505 1.9068H9.87113C10.1575 1.9365 10.4096 2.10787 10.5414 2.36377L12.2314 5.7682C12.3532 6.01725 12.5901 6.19013 12.8635 6.23202L16.6487 6.78115C16.9686 6.82685 17.2359 7.04771 17.3418 7.35236C17.4415 7.65777 17.3555 7.99288 17.1209 8.21299L14.2725 10.9091Z" fill="#F6B76F"/>
+                        </svg>
+                        <svg class="products-star" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.2725 10.9091C14.0752 11.1003 13.9846 11.3767 14.0295 11.6479L14.7066 15.395C14.7637 15.7126 14.6297 16.034 14.3639 16.2176C14.1034 16.408 13.7569 16.4308 13.4728 16.2785L10.0996 14.5192C9.98233 14.4567 9.85209 14.4232 9.71881 14.4194H9.51242C9.44082 14.4301 9.37076 14.4529 9.30678 14.488L5.93285 16.2557C5.76605 16.3394 5.57717 16.3691 5.3921 16.3394C4.94123 16.2541 4.64039 15.8246 4.71427 15.3714L5.3921 11.6243C5.43704 11.3509 5.34641 11.0729 5.14915 10.8786L2.39897 8.21299C2.16897 7.98983 2.089 7.65472 2.1941 7.35236C2.29616 7.05076 2.55663 6.83065 2.87117 6.78115L6.65638 6.23202C6.94426 6.20232 7.19712 6.02715 7.32659 5.7682L8.99452 2.34854C9.03412 2.27238 9.08515 2.20231 9.14684 2.1429L9.21539 2.08959C9.25118 2.04998 9.29231 2.01723 9.33801 1.99058L9.42102 1.96011L9.5505 1.9068H9.87113C10.1575 1.9365 10.4096 2.10787 10.5414 2.36377L12.2314 5.7682C12.3532 6.01725 12.5901 6.19013 12.8635 6.23202L16.6487 6.78115C16.9686 6.82685 17.2359 7.04771 17.3418 7.35236C17.4415 7.65777 17.3555 7.99288 17.1209 8.21299L14.2725 10.9091Z" fill="#F6B76F"/>
+                        </svg>
+                        <svg class="products-star" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.2725 10.9091C14.0752 11.1003 13.9846 11.3767 14.0295 11.6479L14.7066 15.395C14.7637 15.7126 14.6297 16.034 14.3639 16.2176C14.1034 16.408 13.7569 16.4308 13.4728 16.2785L10.0996 14.5192C9.98233 14.4567 9.85209 14.4232 9.71881 14.4194H9.51242C9.44082 14.4301 9.37076 14.4529 9.30678 14.488L5.93285 16.2557C5.76605 16.3394 5.57717 16.3691 5.3921 16.3394C4.94123 16.2541 4.64039 15.8246 4.71427 15.3714L5.3921 11.6243C5.43704 11.3509 5.34641 11.0729 5.14915 10.8786L2.39897 8.21299C2.16897 7.98983 2.089 7.65472 2.1941 7.35236C2.29616 7.05076 2.55663 6.83065 2.87117 6.78115L6.65638 6.23202C6.94426 6.20232 7.19712 6.02715 7.32659 5.7682L8.99452 2.34854C9.03412 2.27238 9.08515 2.20231 9.14684 2.1429L9.21539 2.08959C9.25118 2.04998 9.29231 2.01723 9.33801 1.99058L9.42102 1.96011L9.5505 1.9068H9.87113C10.1575 1.9365 10.4096 2.10787 10.5414 2.36377L12.2314 5.7682C12.3532 6.01725 12.5901 6.19013 12.8635 6.23202L16.6487 6.78115C16.9686 6.82685 17.2359 7.04771 17.3418 7.35236C17.4415 7.65777 17.3555 7.99288 17.1209 8.21299L14.2725 10.9091Z" fill="#F6B76F"/>
+                        </svg>
+                        <svg class="products-star" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.2725 10.9091C14.0752 11.1003 13.9846 11.3767 14.0295 11.6479L14.7066 15.395C14.7637 15.7126 14.6297 16.034 14.3639 16.2176C14.1034 16.408 13.7569 16.4308 13.4728 16.2785L10.0996 14.5192C9.98233 14.4567 9.85209 14.4232 9.71881 14.4194H9.51242C9.44082 14.4301 9.37076 14.4529 9.30678 14.488L5.93285 16.2557C5.76605 16.3394 5.57717 16.3691 5.3921 16.3394C4.94123 16.2541 4.64039 15.8246 4.71427 15.3714L5.3921 11.6243C5.43704 11.3509 5.34641 11.0729 5.14915 10.8786L2.39897 8.21299C2.16897 7.98983 2.089 7.65472 2.1941 7.35236C2.29616 7.05076 2.55663 6.83065 2.87117 6.78115L6.65638 6.23202C6.94426 6.20232 7.19712 6.02715 7.32659 5.7682L8.99452 2.34854C9.03412 2.27238 9.08515 2.20231 9.14684 2.1429L9.21539 2.08959C9.25118 2.04998 9.29231 2.01723 9.33801 1.99058L9.42102 1.96011L9.5505 1.9068H9.87113C10.1575 1.9365 10.4096 2.10787 10.5414 2.36377L12.2314 5.7682C12.3532 6.01725 12.5901 6.19013 12.8635 6.23202L16.6487 6.78115C16.9686 6.82685 17.2359 7.04771 17.3418 7.35236C17.4415 7.65777 17.3555 7.99288 17.1209 8.21299L14.2725 10.9091Z" fill="#F6B76F"/>
+                        </svg>
+                        <svg class="products-star" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.2725 10.9091C14.0752 11.1003 13.9846 11.3767 14.0295 11.6479L14.7066 15.395C14.7637 15.7126 14.6297 16.034 14.3639 16.2176C14.1034 16.408 13.7569 16.4308 13.4728 16.2785L10.0996 14.5192C9.98233 14.4567 9.85209 14.4232 9.71881 14.4194H9.51242C9.44082 14.4301 9.37076 14.4529 9.30678 14.488L5.93285 16.2557C5.76605 16.3394 5.57717 16.3691 5.3921 16.3394C4.94123 16.2541 4.64039 15.8246 4.71427 15.3714L5.3921 11.6243C5.43704 11.3509 5.34641 11.0729 5.14915 10.8786L2.39897 8.21299C2.16897 7.98983 2.089 7.65472 2.1941 7.35236C2.29616 7.05076 2.55663 6.83065 2.87117 6.78115L6.65638 6.23202C6.94426 6.20232 7.19712 6.02715 7.32659 5.7682L8.99452 2.34854C9.03412 2.27238 9.08515 2.20231 9.14684 2.1429L9.21539 2.08959C9.25118 2.04998 9.29231 2.01723 9.33801 1.99058L9.42102 1.96011L9.5505 1.9068H9.87113C10.1575 1.9365 10.4096 2.10787 10.5414 2.36377L12.2314 5.7682C12.3532 6.01725 12.5901 6.19013 12.8635 6.23202L16.6487 6.78115C16.9686 6.82685 17.2359 7.04771 17.3418 7.35236C17.4415 7.65777 17.3555 7.99288 17.1209 8.21299L14.2725 10.9091Z" fill="#F6B76F"/>
+                        </svg>
+                        <div class="products-box2">
+                            <p class="products-dollar">$</p>
+                            <p class="products-prize">921</p>
+                            <a class="products-plus" href="#">
+                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22.3129 12.2102C22.3129 11.4411 21.6894 10.8176 20.9203 10.8176H13.957V3.85427C13.957 3.08512 13.3335 2.46161 12.5643 2.46161C11.7952 2.46161 11.1717 3.08512 11.1717 3.85427V10.8176H4.20838C3.43923 10.8176 2.81572 11.4411 2.81572 12.2102C2.81572 12.9794 3.43923 13.6029 4.20838 13.6029H11.1717V20.5662C11.1717 21.3353 11.7952 21.9588 12.5643 21.9588C13.3335 21.9588 13.957 21.3353 13.957 20.5662V13.6029H20.9203C21.6894 13.6029 22.3129 12.9794 22.3129 12.2102Z" fill="white"/>
+                                </svg> 
+                            </a> 
+                        </div> 
                     </li>
                 </ul>
-                <a class="products-link" href="#">View All</a>
-                <img src="./img/link-pointer.png" alt="link-pointer">
+                <a class="pointer-link products-pointer" href="#"><span>View All</span>
+                    <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.5 12.4002H42M42 12.4002C42 12.4002 37.5119 9.44867 36.6 7.00024M42 12.4002C42 12.4002 38.0324 15.1736 36.6 17.8002" stroke="#E58411" stroke-linecap="square"/>
+                    </svg> 
+                </a>
             </div>
         </section>
         <!-- Experiences  -->
         <section class="experiences">
-            <div class="container">
+            <div class="container experiences-box">
                 <img src="./img/experiences.png" alt="experiences">
-                <p class="experiences-subtitle">Experiences</p>
-                <h2 class="experiences-title">We Provide You The Best Experience</h2>
-                <p class="experiences-text">You don’t have to worry about the result because all of these interiors are made by people who are professionals in their fields with an elegant and lucurious style and with premium quality materials</p>
-                <a class="experiences-link" href="#">More Info</a>
-                <img src="./img/link-pointer.png" alt="link-pointer">
+                <div class="experiences-box2">
+                    <p class="experiences-subtitle">Experiences</p>
+                    <h2 class="experiences-title">We Provide You The Best Experience</h2>
+                    <p class="experiences-text">You don’t have to worry about the result because all of these interiors are made by people who are professionals in their fields with an elegant and lucurious style and with premium quality materials</p>
+                    <a class="pointer-link" href="#"><span>More Info</span>
+                        <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.5 12.4002H42M42 12.4002C42 12.4002 37.5119 9.44867 36.6 7.00024M42 12.4002C42 12.4002 38.0324 15.1736 36.6 17.8002" stroke="#E58411" stroke-linecap="square"/>
+                        </svg> 
+                    </a>
+                </div>
             </div>
         </section>
         <!-- Materials -->
@@ -141,8 +409,11 @@
                 <p class="materials-subtitle">Materials</p>
                 <h2 class="materials-title">Very serious materials for making furniture</h2>
                 <p class="materials-text">Because panto was very serious about designing furniture for our environment, using a very expensive and famous capital but at a relatively low price</p>
-                <a class="experiences-link" href="#">More Info</a>
-                <img class="materials-photo" src="./img/link-pointer.png" alt="link-pointer">
+                <a class="pointer-link" href="#"><span>More Info</span>
+                    <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.5 12.4002H42M42 12.4002C42 12.4002 37.5119 9.44867 36.6 7.00024M42 12.4002C42 12.4002 38.0324 15.1736 36.6 17.8002" stroke="#E58411" stroke-linecap="square"/>
+                    </svg> 
+                </a>
                 <img class="materials-photo" src="./img/grey-armchair.png" alt="grey-armchair">
                 <img class="materials-photo" src="./img/sofa.png" alt="sofa">
                 <img src="./img/armchairs.png" alt="orange-armchairs">
